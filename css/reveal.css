@@ -24,9 +24,14 @@ body {
   background-color: #fff;
   color: #000; }
 
+/* Custome CSS */
+.table-projekte{
+  font-size: 2rem;
+}
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
+
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
@@ -241,8 +246,12 @@ body {
     color: currentColor;
     -webkit-transform: scale(0.9999);
             transform: scale(0.9999);
-    transition: color 0.2s ease, opacity 0.2s ease, -webkit-transform 0.2s ease;
-    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+    transition: color 0.2s ease,
+ opacity 0.2s ease,
+ -webkit-transform 0.2s ease;
+    transition: color 0.2s ease,
+ opacity 0.2s ease,
+ transform 0.2s ease;
     z-index: 2;
     pointer-events: auto;
     font-size: inherit;
