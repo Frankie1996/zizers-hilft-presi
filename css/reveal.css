@@ -28,6 +28,18 @@ body {
 .table-projekte{
   font-size: 2rem;
 }
+
+.ext-link{
+  width: 60px;
+  opacity: 0.6;
+  box-shadow: none !important;
+  background: none !important; 
+  border: none !important;
+}
+.ext-link:hover{
+  scale: 1.2;
+  opacity: 1;
+  }
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
